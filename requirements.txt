@@ -11,6 +11,7 @@ pillow==11.0.0
 gunicorn==23.0.0
 django-allauth
 dj-database-url
+PyJWT
 joblib
 whitenoise
 psycopg2-binary==2.9.10
