@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-(1pp#b$ka=#06k%l=ta7tl1+d1zqu@^vur^rl!)4bd1ix=&e!q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.koyeb.app','localhost','.vercel.app','.onrender.com','127.0.0.1']
 
 
 # Application definition
