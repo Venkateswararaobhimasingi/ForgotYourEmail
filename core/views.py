@@ -65,3 +65,11 @@ def home(request):
 def custom_logout(request):
     logout(request)
     return redirect('login')
+
+
+def privacy_policy(request):
+    return render(request, 'privacy_policy.html')
+
+def terms_of_service(request):
+    return render(request, 'terms_of_service.html')
+
